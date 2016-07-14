@@ -46,3 +46,53 @@ $("#b").click(function(){
   bNote.currentTime = 0;
   bNote.play();
 });
+
+$(document).keydown(function(e){
+  if (e.key == "q") {
+    $("#c").trigger("click").addClass("cactive");
+  }
+  if (e.key == "w"){
+    $("#d").trigger("click").addClass("dactive");
+  }
+  if (e.key == "e"){
+    $("#e").trigger("click").addClass("eactive");
+  if (e.key == "r"){
+    $("#f").trigger("click").addClass("factive");
+  if (e.key == "t"){
+    $("#g").trigger("click").addClass("gactive");
+  }
+  if (e.key == "y"){
+    $("#a").trigger("click").addClass("aactive");
+  }
+  if (e.key == "u"){
+    $("#b").trigger("click").addClass("bactive");
+  }
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("cactive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("dactive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("eactive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("factive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("gactive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("aactive");
+});
+
+$(document).keyup(function(e){
+  $(".box").removeClass("bactive");
+});
