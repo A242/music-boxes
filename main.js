@@ -1,55 +1,48 @@
-var cNote = document.getElementByID("c_note");
+var cNote = document.getElementById("c_note");
 
 $("#c").click(function(){
-  document.getElementByID("c_note").currentTime = 0;
-  document.getElementByID("c_note").play();
+  cNote.currentTime = 0;
   cNote.play();
 });
 
-var dNote = document.getElementByID("d_note");
+var dNote = document.getElementById("d_note");
 
 $("#d").click(function(){
-  document.getElementByID("d_note").currentTime = 0;
-  document.getElementByID("d_note").play();
+  dNote.currentTime = 0;
   dNote.play();
 });
 
-var eNote = document.getElementByID("e_note");
+var eNote = document.getElementById("e_note");
 
 $("#e").click(function(){
-  document.getElementByID("e_note").currentTime = 0;
-  document.getElementByID("e_note").play();
+  eNote.currentTime = 0;
   eNote.play();
 });
 
-var fNote = document.getElementByID("f_note");
+var fNote = document.getElementById("f_note");
 
 $("#f").click(function(){
-  document.getElementByID("f_note").currentTime = 0;
-  document.getElementByID("f_note").play();
+  fNote.currentTime = 0;
   fNote.play();
 });
 
-var gNote = document.getElementByID("g_note");
+var gNote = document.getElementById("g_note");
 
 $("#g").click(function(){
-  document.getElementByID("g_note").currentTime = 0;
-  document.getElementByID("g_note").play();
+  gNote.currentTime = 0;
   gNote.play();
 });
 
-var aNote = document.getElementByID("a_note");
+var aNote = document.getElementById("a_note");
 
 $("#a").click(function(){
-  document.getElementByID("a_note").currentTime = 0;
-  document.getElementByID("a_note").play();
+  aNote.currentTime = 0;
   aNote.play();
 });
 
-var bNote = document.getElementByID("b_note");
+var bNote = document.getElementById("b_note");
 
 $("#b").click(function(){
-  document.getElementByID("b_note").currentTime = 0;
-  document.getElementByID("b_note").play();
+  bNote.currentTime = 0;
   bNote.play();
 });
